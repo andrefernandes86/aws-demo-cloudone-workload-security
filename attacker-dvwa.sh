@@ -1,7 +1,7 @@
 sudo su
 sudo apt-get update
 sleep 15
-sudo apt-get install python
+sudo apt-get install python -y
 sleep 20
 curl -fsSL https://get.docker.com | sh
 sleep 20
