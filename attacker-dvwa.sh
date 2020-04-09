@@ -1,3 +1,4 @@
+#!/bin/bash
 sudo su
 sudo apt-get update
 sleep 10
