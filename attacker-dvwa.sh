@@ -9,4 +9,4 @@ apt-get install -y python
 sleep 20
 curl -fsSL https://get.docker.com | sh
 sleep 20
-docker run -d --rm --name demo-dvwa -d -p 80:80 andrefernandes86/demo-dvwa
+docker run -d --rm --name demo-dvwa -d -p 8080:80 andrefernandes86/demo-dvwa
