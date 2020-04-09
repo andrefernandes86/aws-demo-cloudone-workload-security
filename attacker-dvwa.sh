@@ -1,3 +1,4 @@
+sudo su
 sudo apt-get update
 sleep 15
 sudo apt-get install python
