@@ -8,7 +8,7 @@ curl -fsSL https://get.docker.com | sh
 sleep 10
 sudo usermod -aG docker root
 sleep 5
-sudo docker run -d --rm --name demo-apachestruts-target -d -p 80:80 andrefernandes86/demo-apachestruts-target
+sudo docker run -d --rm --name demo-apachestruts-target -d -p 80:8080 andrefernandes86/demo-apachestruts-target
 
 
 ACTIVATIONURL='dsm://agents.deepsecurity.trendmicro.com:443/'
