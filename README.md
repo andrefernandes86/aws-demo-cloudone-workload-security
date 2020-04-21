@@ -1,4 +1,4 @@
-# DSSaaS Demo (attack and defense)
+# Cloud One - Workload Security Demo
 - Requirements:
 
 -- AWS Account
