@@ -13,7 +13,9 @@ Requirements:
 - Check on DSSaaS the status of the DS Agent deployment;
 - Make sure the right policy is deployed;
 - Connect on the Linux Instance where you executed the attacker-dvwa-ds script through http://public-ip:8080
+
 -- username: administrator 
+
 -- password: password
 
 - Connect on the Linux Instance where you executed the target-apachestruts-ds script through http://public-ip
