@@ -8,8 +8,6 @@ curl -fsSL https://get.docker.com | sh
 sleep 10
 sudo usermod -aG docker root
 sleep 5
-sudo docker run -d --rm --name demo-apachestruts-target -d -p 80:8080 andrefernandes86/demo-apachestruts-target
-
 
 ACTIVATIONURL='dsm://agents.deepsecurity.trendmicro.com:443/'
 MANAGERURL='https://app.deepsecurity.trendmicro.com:443'
@@ -77,3 +75,7 @@ sleep 15
 /opt/ds_agent/dsa_control -r
 /opt/ds_agent/dsa_control -a $ACTIVATIONURL "tenantID:D4C3D7DC-441E-3467-748F-AE1123B97AFC" "token:F5127BD8-ED71-CCD6-273C-09D231E805A3" "policyid:803"
 # /opt/ds_agent/dsa_control -a dsm://agents.deepsecurity.trendmicro.com:443/ "tenantID:D4C3D7DC-441E-3467-748F-AE1123B97AFC" "token:F5127BD8-ED71-CCD6-273C-09D231E805A3" "policyid:803"
+
+sleep 45
+sudo docker run -d --rm --name demo-apachestruts-target -d -p 80:8080 andrefernandes86/demo-apachestruts-target
+
