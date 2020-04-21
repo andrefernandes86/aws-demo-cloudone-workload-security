@@ -1,5 +1,5 @@
 # Cloud One - Workload Security Demo
-- Requirements:
+Requirements:
 
 -- AWS Account
 
