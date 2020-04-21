@@ -1,6 +1,8 @@
 # DSSaaS Demo (attack and defense)
 - Requirements:
+
 -- AWS Account
+
 -- 2 Linux Instances (tested with ubuntu)
 
 ## Phase1 - Demo Preparation
